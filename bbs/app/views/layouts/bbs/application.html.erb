@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>App</title>
+  <%= stylesheet_link_tag    'bbs/application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'bbs/application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div id='bbs'>
+  <%= yield %>
+</div>
+
+</body>
+</html>

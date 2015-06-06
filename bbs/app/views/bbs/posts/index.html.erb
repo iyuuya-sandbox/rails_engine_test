@@ -1,0 +1,7 @@
+<p id="notice"><%= notice %></p>
+
+<%= render partial: 'bbs/posts/index', locals: { posts: @posts } %>
+
+<br>
+
+<%= link_to 'New Post', bbs.new_post_path %>
